@@ -51,19 +51,15 @@
 ```sh
     $ pip install redis
 ```    
-14. Ставим Django File Md5:
-```sh
-    $ pip install django-file-md5
-```    
-15. Для запуска проекта выполните команду:
+14. Для запуска проекта выполните команду:
 ```sh
     $ ./manage.py runserver
 ```    
-16. Запустите Redis сервер в отдельной консоли следующим образом:
+15. Запустите Redis сервер в отдельной консоли следующим образом:
 ```sh
     $ redis-server
 ```    
-17. Запустим Celery в отдельной консоли:
+16. Запустим Celery в отдельной консоли:
 ```sh
     $ celery worker -A MD5light --loglevel=INFO
 ```    
